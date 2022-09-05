@@ -700,11 +700,11 @@ PlayerSettings:
     m_VersionName: 
   apiCompatibilityLevel: 6
   activeInputHandler: 2
-  cloudProjectId: 
+  cloudProjectId: a405bff1-3227-46ec-b4e8-45d93c4da0a1
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
-  organizationId: 
+  projectName: My project
+  organizationId: unity_cwfwntlvqssojw
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   playerDataPath: 
