@@ -10,8 +10,6 @@ public class Forklift_Script : MonoBehaviour
     public float enemySpeed = 10f;
     private int wavePointIndex = 0;
 
-    public GameObject enemyPlayerPanel;
-
     public bool isPlayerSeen;
     public bool isPlayerLocationKnown;
 
@@ -23,14 +21,7 @@ public class Forklift_Script : MonoBehaviour
 
     private void Update()
     {
-        if (isPlayerLocationKnown == true)
-        {
-            enemyPlayerPanel.SetActive(true);
-        }
-        else
-        {
-            enemyPlayerPanel.SetActive(false);
-        }
+
     }
 
     public void EnemyWanderMovement()

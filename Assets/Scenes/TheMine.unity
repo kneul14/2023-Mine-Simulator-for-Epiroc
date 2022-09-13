@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 3246.2227, g: 2973.9355, b: 3070.7266, a: 1}
+  m_IndirectSpecularColor: {r: 3245.6787, g: 2972.7402, b: 3069.3906, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -326,6 +326,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0fd6c241599fef645b0e96c9f37800e6, type: 3}
+--- !u!4 &1042895445 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8615531776979977420, guid: 47e54eb2f6b9c544baab6f55281f8eb9, type: 3}
+  m_PrefabInstance: {fileID: 1052866303}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1052866303
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -830,8 +835,9 @@ GameObject:
   - component: {fileID: 2004537098}
   - component: {fileID: 2004537097}
   - component: {fileID: 2004537096}
-  - component: {fileID: 2004537100}
   - component: {fileID: 2004537099}
+  - component: {fileID: 2004537100}
+  - component: {fileID: 2004537101}
   m_Layer: 0
   m_Name: Forklift
   m_TagString: Untagged
@@ -939,9 +945,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemySpeed: 10
-  enemyPlayerPanel: {fileID: 0}
   isPlayerSeen: 0
   isPlayerLocationKnown: 0
+--- !u!114 &2004537101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2004537095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9502707909a866442a66f1ba3cdebf4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerPos: {fileID: 1042895445}
+  currentPos: {fileID: 2004537098}
 --- !u!1 &2110871972 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7825252759662982212, guid: 0fd6c241599fef645b0e96c9f37800e6, type: 3}
