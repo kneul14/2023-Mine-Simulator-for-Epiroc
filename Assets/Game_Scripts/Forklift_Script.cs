@@ -10,9 +10,6 @@ public class Forklift_Script : MonoBehaviour
     public float enemySpeed = 10f;
     private int wavePointIndex = 0;
 
-    public bool isPlayerSeen;
-    public bool isPlayerLocationKnown;
-
     private void Start()
     {
         target = Drive_Points.drivePoints[0];
@@ -21,7 +18,7 @@ public class Forklift_Script : MonoBehaviour
 
     private void Update()
     {
-
+        EnemyWanderMovement();
     }
 
     public void EnemyWanderMovement()
