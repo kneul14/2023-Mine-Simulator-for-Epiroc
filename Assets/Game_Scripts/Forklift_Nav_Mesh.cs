@@ -33,6 +33,6 @@ public class Forklift_Nav_Mesh : MonoBehaviour
     public void Drive()
     {
         transform.LookAt(currentPos);
-        Debug.Log("Driving");
+        //Debug.Log("Driving");
     }
 }
