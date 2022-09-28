@@ -65,13 +65,13 @@ public class DemoCarController : MonoBehaviour
         }
         
         // Driving inputs 
-        float rawSteeringInput = Input.GetAxis("Horizontal");
+        //float rawSteeringInput = Input.GetAxis("Horizontal");
         float rawForwardInput = Input.GetAxis("Vertical");
         float parkInput = Input.GetAxis("Jump");
 
         // Steering
-        steeringReduction = 1 - Mathf.Min(Mathf.Abs(velocity.Value) / 30f, 0.85f);
-        userSteeringInput.Value = rawSteeringInput * steeringReduction;
+        //steeringReduction = 1 - Mathf.Min(Mathf.Abs(velocity.Value) / 30f, 0.85f);
+        //userSteeringInput.Value = rawSteeringInput * steeringReduction;
 
         #region Wheel torques 
 

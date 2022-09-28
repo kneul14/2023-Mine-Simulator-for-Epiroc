@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Tag_Point_Detection : MonoBehaviour
 {
-    public GameObject forkLift;
+    public GameObject mineTruck;
     public GameObject greenLight;
     public GameObject amberLight;
     public GameObject redLight;
@@ -32,7 +32,7 @@ public class Tag_Point_Detection : MonoBehaviour
 
     private void OnTriggerEnter(Collider collider)
     {
-        if (collider.gameObject.tag == "ForkLift")
+        if (collider.gameObject.tag == "MineTruck")
         {
             //forkLift.SetActive(false);
             greenLight.SetActive(false);
