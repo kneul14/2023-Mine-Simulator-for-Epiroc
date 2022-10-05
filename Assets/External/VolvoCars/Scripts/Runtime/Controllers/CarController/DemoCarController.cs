@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using System.Diagnostics;
 
 public class DemoCarController : MonoBehaviour
 {
@@ -45,7 +46,7 @@ public class DemoCarController : MonoBehaviour
         doorIsOpenR1LAction = isOpen =>
         {
             if (consoleMessages && Application.isPlaying)
-                Debug.Log("This debug message is an example action triggered by a subscription to DoorIsOpenR1L in DemoCarController. Value: " + isOpen +
+                UnityEngine.Debug.Log("This debug message is an example action triggered by a subscription to DoorIsOpenR1L in DemoCarController. Value: " + isOpen +
                     "\nYou can turn off this message by unchecking Console Messages in the inspector.");
         };
         // Then, add it to the subscription. In this script's OnDestroy() method we are also referencing this action when unsubscribing.
@@ -63,17 +64,26 @@ public class DemoCarController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter)) {
             doorIsOpenR1L.Value = !doorIsOpenR1L.Value;
         }
-        
+
         // Driving inputs 
-        //float rawSteeringInput = Input.GetAxis("Horizontal");
+        float rawSteeringInput = Input.GetAxis("Horizontal");
         float rawForwardInput = Input.GetAxis("Vertical");
         float parkInput = Input.GetAxis("Jump");
 
         // Steering
-        //steeringReduction = 1 - Mathf.Min(Mathf.Abs(velocity.Value) / 30f, 0.85f);
-        //userSteeringInput.Value = rawSteeringInput * steeringReduction;
+        steeringReduction = 1 - Mathf.Min(Mathf.Abs(velocity.Value) / 30f, 0.85f);
+        userSteeringInput.Value = rawSteeringInput * steeringReduction;
 
         #region Wheel torques 
+
+        //if (velocity.Value < 0)
+        //{
+        //    velocity.Value = 0;
+        //}
+        //if (velocity.Value > 0.5f)
+        //{
+        //    velocity.Value = 0.5f;
+        //}
 
         if (parkInput > 0) { // Park request ("hand brake")
             if (Mathf.Abs(velocity.Value) > 5f / 3.6f) { 
@@ -149,14 +159,44 @@ public class DemoCarController : MonoBehaviour
 
     private void ApplyWheelTorques(float totalWheelTorque)
     {
+        var kph = ((int)(3.6f * Mathf.Abs(velocity.Value) + 0.9f));
+        float fl, fr, rl, rr;        
         // Set the torque values for the four wheels.
-        wheelTorqueValue.fL = 1.4f * totalWheelTorque / 4f;
-        wheelTorqueValue.fR = 1.4f * totalWheelTorque / 4f;
-        wheelTorqueValue.rL = 0.6f * totalWheelTorque / 4f;
-        wheelTorqueValue.rR = 0.6f * totalWheelTorque / 4f;
+        fl = 1.4f * totalWheelTorque / 3f;
+        fr = 1.4f * totalWheelTorque / 3f;
+        rl = 0.6f * totalWheelTorque / 4f;
+        rr = 0.6f * totalWheelTorque / 4f;
 
-        // Update the wheel torque data item with the new values. This is accessible to other scripts, such as chassis dynamics.
-        wheelTorque.Value = wheelTorqueValue;
+        if (kph < 70)
+        {
+            // Set the torque values for the four wheels.
+            wheelTorqueValue.fL = fl;
+            wheelTorqueValue.fR = fr;
+            wheelTorqueValue.rL = rl;
+            wheelTorqueValue.rR = rr;
+
+            wheelTorque.Value = wheelTorqueValue;
+        }
+        if (kph >= 70)
+        {
+            if (fl >= 0)  // on gas
+            {
+                // Set the torque values for the four wheels.
+                wheelTorqueValue.fL = 0;
+                wheelTorqueValue.fR = 0;
+                wheelTorqueValue.rL = 0;
+                wheelTorqueValue.rR = 0;
+            }
+            if (fl < 0) // off gas
+            {
+                wheelTorqueValue.fL = fl;
+                wheelTorqueValue.fR = fr;
+                wheelTorqueValue.rL = rl;
+                wheelTorqueValue.rR = rr;
+            }
+
+            wheelTorque.Value = wheelTorqueValue;
+        }
     }
 
 }

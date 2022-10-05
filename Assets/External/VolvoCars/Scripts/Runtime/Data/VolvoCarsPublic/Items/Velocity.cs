@@ -12,7 +12,7 @@ namespace VolvoCars.Data
     [CustomEditor(typeof(Velocity))]
     public class VelocityEditor : DataEditor<float>
     {
-
+      
         public override void OnInspectorGUI()
         {
             EditorGUILayout.HelpBox("The car's signed longitudinal speed.", MessageType.None, true);

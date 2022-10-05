@@ -46,8 +46,9 @@ public class SpeedAndGear : MonoBehaviour
         };
         gear.Subscribe(gearAction);
 
+        
         velocityAction = v =>
-        {
+        {           
             if (speedText == null)
                 return;
 

@@ -253,6 +253,7 @@ namespace VolvoCars.Data
 #pragma warning restore RECS0017 // Possible compare of value type with 'null'
             {
                 _value = value;
+
                 Trigger(value, silentSubscriber);
             }
             else
