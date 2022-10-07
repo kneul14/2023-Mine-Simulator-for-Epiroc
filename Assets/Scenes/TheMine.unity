@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 9.982388, g: 9.150581, b: 9.462051, a: 1}
+  m_IndirectSpecularColor: {r: 9.976223, g: 9.138107, b: 9.434692, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2233,6 +2233,7 @@ GameObject:
   m_Component:
   - component: {fileID: 198437272}
   - component: {fileID: 198437273}
+  - component: {fileID: 198437274}
   m_Layer: 0
   m_Name: Mine_Truck_Container
   m_TagString: Untagged
@@ -2277,6 +2278,19 @@ MonoBehaviour:
   truck1: {fileID: 0}
   truck2: {fileID: 0}
   truck3: {fileID: 0}
+--- !u!114 &198437274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 198437271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb609c8714496a94abbebd479e8677db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wanderPoints: []
 --- !u!4 &208639296 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: d162d260ab0c07b43b7e7e90d954b83a, type: 3}
