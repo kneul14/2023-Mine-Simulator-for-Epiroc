@@ -5,14 +5,14 @@ using UnityEngine.AI;
 
 public class Forklift_Script : MonoBehaviour
 {
-    public Transform target;
+    private Transform target;
     NavMeshAgent navMesh; //reference to the Nav Mesh stateName;
     public float enemySpeed = 10f;
     private int wavePointIndex = 0;
 
     private void Start()
     {
-        //target = Drive_Points.drivePoints[0];
+        target = Drive_Points.drivePoints[0];
         navMesh = GetComponent<NavMeshAgent>();
     }
 
