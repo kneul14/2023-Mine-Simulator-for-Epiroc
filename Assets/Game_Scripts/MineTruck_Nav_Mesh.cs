@@ -9,7 +9,7 @@ public class MineTruck_Nav_Mesh : MonoBehaviour
     NavMeshAgent navMesh; //reference to the Nav Mesh
     [SerializeField] Transform currentPos;
     
-    //float s = 2.0f;
+    float s = 2.0f;
 
     private MineTruck_Script MineTruckScript;
 
