@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Drive_Points : MonoBehaviour
 {
-    public static Transform[] drivePoints;
+    //public static Transform[] drivePoints;
+    public Transform[] drivePoints;
 
     void Awake()
     {
