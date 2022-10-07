@@ -21,12 +21,6 @@ public class Car_Roatator : MonoBehaviour
         //volvoCar.transform.LookAt(transform.position);
     }
 
-    void RotateCar()
-    {
-        //Debug.Log("rotating."); //car is rotating  
-
-    }
-
     private void OnTriggerEnter(Collider collider)
     {
         if (collider.gameObject.tag == "VolvoCar")
@@ -65,14 +59,14 @@ public class Car_Roatator : MonoBehaviour
         yield return null;
     }
 
-    IEnumerator PositionCarSmoothly()
-    {
-        float moveSpeed = 5f;
-        while (volvoCar.transform.rotation.y < 180)
-        {
-            yield return null;
-        }
-        volvoCar.transform.rotation = Quaternion.Euler(0, degreeToRotate, 0);
-        yield return null;
-    }
+    //IEnumerator PositionCarSmoothly()
+    //{
+    //    float moveSpeed = 5f;
+    //    while (volvoCar.transform.rotation.y < 180)
+    //    {
+    //        yield return null;
+    //    }
+    //    volvoCar.transform.rotation = Quaternion.Euler(0, degreeToRotate, 0);
+    //    yield return null;
+    //}
 }

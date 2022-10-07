@@ -34,7 +34,6 @@ public class Tag_Point_Detection : MonoBehaviour
     {
         if (collider.gameObject.tag == "MineTruck")
         {
-            //forkLift.SetActive(false);
             greenLight.SetActive(false);
             redLight.SetActive(true);
         }
