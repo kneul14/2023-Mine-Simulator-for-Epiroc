@@ -6,33 +6,33 @@ using UnityEngine.SceneManagement;
 
 public class MineTruck_Nav_Mesh : MonoBehaviour
 {
-    NavMeshAgent navMesh; //reference to the Nav Mesh
-    [SerializeField] Transform currentPos;
+    //NavMeshAgent navMesh; //reference to the Nav Mesh
+    //[SerializeField] Transform currentPos;
     
-    float s = 2.0f;
+    //float s = 2.0f;
 
-    private MineTruck_Script MineTruckScript;
+    //private MineTruck_Script MineTruckScript;
 
-    private void Awake()
-    {
-        navMesh = GetComponent<NavMeshAgent>();
-    }
+    //private void Awake()
+    //{
+    //    navMesh = GetComponent<NavMeshAgent>();
+    //}
 
-    // Start is called before the first frame update
-    void Start()
-    {
+    //// Start is called before the first frame update
+    //void Start()
+    //{
       
-    }
+    //}
 
-    // Update is called once per frame
-    void Update()
-    {
-        Drive();
-    }
+    //// Update is called once per frame
+    //void Update()
+    //{
+    //    Drive();
+    //}
 
-    public void Drive()
-    {
-        transform.LookAt(currentPos);
-        //Debug.Log("Driving");
-    }
+    //public void Drive()
+    //{
+    //    transform.LookAt(currentPos);
+    //    //Debug.Log("Driving");
+    //}
 }

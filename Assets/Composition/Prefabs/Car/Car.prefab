@@ -121,6 +121,7 @@ MonoBehaviour:
   taaMotionVectorRejection: 0
   taaAntiHistoryRinging: 1
   taaBaseBlendFactor: 0.875
+  taaJitterScale: 1
   physicalParameters:
     m_Iso: 200
     m_ShutterSpeed: 0.005
@@ -893,11 +894,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f63e10f9ab57db47bf1baac1af0c078, type: 3}
---- !u!1 &5485333292589291545 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4806326817016233155, guid: 2f63e10f9ab57db47bf1baac1af0c078, type: 3}
-  m_PrefabInstance: {fileID: 1057309447732798682}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5485333292589291547 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4806326817016233153, guid: 2f63e10f9ab57db47bf1baac1af0c078, type: 3}
@@ -1259,7 +1255,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8467381848116582322, guid: fa1dd2d06c47bcd4db3c3f49488ca156, type: 3}
   m_PrefabInstance: {fileID: 6702658173931610574}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5311500223856508919}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 18eedfa8620711d43acb9bd6f9dc4c3d, type: 3}
@@ -1273,11 +1269,6 @@ GameObject:
 --- !u!146 &5245166041462464729 stripped
 WheelCollider:
   m_CorrespondingSourceObject: {fileID: 1571248988500263191, guid: fa1dd2d06c47bcd4db3c3f49488ca156, type: 3}
-  m_PrefabInstance: {fileID: 6702658173931610574}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &5311500223856508919 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1491427424528768569, guid: fa1dd2d06c47bcd4db3c3f49488ca156, type: 3}
   m_PrefabInstance: {fileID: 6702658173931610574}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &6445022430685655049 stripped

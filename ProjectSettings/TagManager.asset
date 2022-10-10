@@ -8,6 +8,7 @@ TagManager:
   - Drive Points
   - MineTruck
   - VolvoCar
+  - TrafficLight
   layers:
   - Default
   - TransparentFX
