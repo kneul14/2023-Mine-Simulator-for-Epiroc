@@ -167,7 +167,7 @@ public class DemoCarController : MonoBehaviour
         rl = 0.6f * totalWheelTorque / 4f;
         rr = 0.6f * totalWheelTorque / 4f;
 
-        if (kph < 70)
+        if (kph < 55)
         {
             // Set the torque values for the four wheels.
             wheelTorqueValue.fL = fl;
@@ -177,7 +177,7 @@ public class DemoCarController : MonoBehaviour
 
             wheelTorque.Value = wheelTorqueValue;
         }
-        if (kph >= 70)
+        if (kph >= 55)
         {
             if (fl >= 0)  // on gas
             {

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Traffic_Light_Script : MonoBehaviour
 {
-    public GameObject truck, machineTagPoint;
+    public GameObject truck, machineTagPoint, greenLight, amberLight, redLight;
 
     // Start is called before the first frame update
     void Start()
@@ -17,8 +17,34 @@ public class Traffic_Light_Script : MonoBehaviour
     {
         if (truck == null || truck.activeInHierarchy == false)
         {
-            Destroy(machineTagPoint);
+            if(machineTagPoint != null)
+            {
+                Destroy(machineTagPoint);
+            }
             Destroy(gameObject);
+        }
+    }
+
+    private void Awake()
+    {
+        greenLight.SetActive(true);
+    }
+
+    private void OnTriggerEnter(Collider collider)
+    {
+        if (collider.gameObject.tag == "MineTruck")
+        {
+            greenLight.SetActive(false);
+            redLight.SetActive(true);
+        }
+    }
+
+    private void OnTriggerExit(Collider collider)
+    {
+        if (collider.gameObject.tag == "MineTruck")
+        {
+            redLight.SetActive(false);
+            greenLight.SetActive(true);
         }
     }
 }

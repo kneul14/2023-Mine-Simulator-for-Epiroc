@@ -21,12 +21,19 @@ public class MineTruck_Script : MonoBehaviour
 
     private void Update()
     {
-        EnemyWanderMovement();
+        if (DPGO != null)
+        {
+            EnemyWanderMovement();
+        }
     }
 
     public void EnemyWanderMovement()
     {
-        navMesh.SetDestination(target.position);
+        if (DPGO != null)
+        {
+            navMesh.SetDestination(target.position);
+
+        }
 
         if (Vector3.Distance(transform.position, target.position) <= 0.2f)
         {
@@ -36,7 +43,11 @@ public class MineTruck_Script : MonoBehaviour
 
     void ContinueMoving()
     {
-        navMesh.SetDestination(target.position);
+        if (DPGO != null)
+        {
+            navMesh.SetDestination(target.position);
+
+        }
         wavePointIndex = -1;
         wavePointIndex++;
 
