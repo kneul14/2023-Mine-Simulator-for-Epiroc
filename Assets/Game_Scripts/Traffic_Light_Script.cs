@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Traffic_Light_Script : MonoBehaviour
 {
-    public GameObject truck, machineTagPoint, greenLight, amberLight, redLight;
+    public GameObject truck, truck2, machineTagPoint, greenLight, amberLight, redLight;
 
     // Start is called before the first frame update
     void Start()
@@ -15,7 +15,7 @@ public class Traffic_Light_Script : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (truck == null || truck.activeInHierarchy == false)
+        if ((truck == null || truck.activeInHierarchy == false) && (truck2 == null || truck2.activeInHierarchy == false))
         {
             if(machineTagPoint != null)
             {
@@ -23,6 +23,8 @@ public class Traffic_Light_Script : MonoBehaviour
             }
             Destroy(gameObject);
         }
+
+
     }
 
     private void Awake()
