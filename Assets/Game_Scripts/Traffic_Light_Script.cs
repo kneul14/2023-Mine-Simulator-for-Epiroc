@@ -37,7 +37,8 @@ public class Traffic_Light_Script : MonoBehaviour
         if (collider.gameObject.tag == "MineTruck")
         {
             greenLight.SetActive(false);
-            redLight.SetActive(true);
+            amberLight.SetActive(true);
+            StartCoroutine("RedLight");
         }
     }
 
@@ -45,8 +46,15 @@ public class Traffic_Light_Script : MonoBehaviour
     {
         if (collider.gameObject.tag == "MineTruck")
         {
-            redLight.SetActive(false);
+            amberLight.SetActive(false);
             greenLight.SetActive(true);
+            StopAllCoroutines();
         }
+    }
+
+    IEnumerator RedLight()
+    {
+        yield return new WaitForSeconds(1f);
+        redLight.SetActive(true);
     }
 }
