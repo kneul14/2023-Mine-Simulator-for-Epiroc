@@ -6,6 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: add28dc6a2eb8974f91a6e416d3d1c6f
+    path: Assets/Scenes/1 Traffic Lights.unity
+    guid: 7ac2ec26483cd40419d397bd2515ae6d
+  - enabled: 1
+    path: Assets/Scenes/2 Light on the screen 1.unity
+    guid: 567e791d29dcd4341918dcb04520a7ab
+  - enabled: 1
+    path: Assets/Scenes/3 Brighter Headlights.unity
+    guid: d5384b758b8d001479528b0ec77e3bda
+  - enabled: 1
+    path: Assets/Scenes/4 Intersection Lights 1.unity
+    guid: 70bbbf499df38654d944705ce44f8662
+  - enabled: 1
+    path: Assets/Scenes/5 Lines to distance to stop.unity
+    guid: cbb174a145c7662489e11f36da17e576
   m_configObjects: {}
