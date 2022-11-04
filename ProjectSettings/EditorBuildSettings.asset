@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/1 Traffic Lights.unity
     guid: 7ac2ec26483cd40419d397bd2515ae6d
   - enabled: 1
-    path: Assets/Scenes/2 Light on the screen.unity
+    path: Assets/Scenes/2 Light on the dashboard.unity
     guid: 567e791d29dcd4341918dcb04520a7ab
   - enabled: 1
     path: Assets/Scenes/3 Brighter Headlights.unity
