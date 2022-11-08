@@ -9,6 +9,8 @@ TagManager:
   - MineTruck
   - VolvoCar
   - TrafficLight
+  - RHeadLight
+  - GHeadLight
   layers:
   - Default
   - TransparentFX
