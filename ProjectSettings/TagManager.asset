@@ -11,11 +11,12 @@ TagManager:
   - TrafficLight
   - RHeadLight
   - GHeadLight
+  - Map
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - MAP
   - Water
   - UI
   - Terrain

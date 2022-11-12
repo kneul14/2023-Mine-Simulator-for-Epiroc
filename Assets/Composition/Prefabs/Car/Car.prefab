@@ -1353,6 +1353,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ebeaf77daa7f7c47bd4e4b15bd132da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
+  audioSource2: {fileID: 0}
 --- !u!146 &5245166041462464729 stripped
 WheelCollider:
   m_CorrespondingSourceObject: {fileID: 1571248988500263191, guid: fa1dd2d06c47bcd4db3c3f49488ca156, type: 3}
