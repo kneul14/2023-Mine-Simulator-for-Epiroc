@@ -8,7 +8,8 @@ using System;
 
 public class Questionare : MonoBehaviour
 {
-    [SerializeField] TMP_InputField feedback, name;
+    [SerializeField] TMP_InputField feedback;
+    [SerializeField] TMP_InputField pname;
     [SerializeField] TMP_Dropdown dropdown;
 
     string URL = "https://docs.google.com/forms/u/0/d/e/1FAIpQLSebfuxtCDgYzhjkuXqwbgtEvYkJfZY4_cafOLdUYdwD3DQ28Q/formResponse";
@@ -27,7 +28,7 @@ public class Questionare : MonoBehaviour
 
     public void Send()
     {
-        StartCoroutine(Post(feedback.text, name.text, dropdown.value));
+        StartCoroutine(Post(feedback.text, pname.text, dropdown.value));
     }
 
     IEnumerator Post(string s1, string n, int d1)
