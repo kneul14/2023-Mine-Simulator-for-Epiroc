@@ -12,6 +12,7 @@ TagManager:
   - RHeadLight
   - GHeadLight
   - Map
+  - TruckTP
   layers:
   - Default
   - TransparentFX

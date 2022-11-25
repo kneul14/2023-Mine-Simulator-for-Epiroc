@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 4.076992, g: 3.7757206, b: 4.006588, a: 1}
+  m_IndirectSpecularColor: {r: 4.067506, g: 3.7364082, b: 3.881256, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1504,18 +1504,26 @@ PrefabInstance:
     - target: {fileID: 5809802479726630088, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: mineTruck
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 197984482}
     - target: {fileID: 5809802479726630099, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_Name
       value: Machine Tag Point 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5809802479726630099, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
+      propertyPath: m_TagString
+      value: TruckTP
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_RootOrder
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5.9967303
+      objectReference: {fileID: 0}
+    - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.463578
+      value: -77.4
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1523,7 +1531,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 38.774105
+      value: 57.5
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalRotation.w
@@ -12662,18 +12670,26 @@ PrefabInstance:
     - target: {fileID: 5809802479726630088, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: mineTruck
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1066932877}
     - target: {fileID: 5809802479726630099, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_Name
       value: Machine Tag Point 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5809802479726630099, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
+      propertyPath: m_TagString
+      value: TruckTP
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5.9967303
+      objectReference: {fileID: 0}
+    - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.463578
+      value: 164.2
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalPosition.y
@@ -12681,7 +12697,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 38.774105
+      value: 99.2
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalRotation.w
@@ -12862,18 +12878,26 @@ PrefabInstance:
     - target: {fileID: 5809802479726630088, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: mineTruck
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1335913330}
     - target: {fileID: 5809802479726630099, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_Name
       value: Machine Tag Point 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5809802479726630099, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
+      propertyPath: m_TagString
+      value: TruckTP
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5.9967303
+      objectReference: {fileID: 0}
+    - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.463578
+      value: -7.7
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalPosition.y
@@ -12881,11 +12905,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 38.774105
+      value: 62.8
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.9702892
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalRotation.x
@@ -12893,7 +12917,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: -0.24194835
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalRotation.z
@@ -12905,7 +12929,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -28.003
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -13533,18 +13557,26 @@ PrefabInstance:
     - target: {fileID: 5809802479726630088, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: mineTruck
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1452063167}
     - target: {fileID: 5809802479726630099, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_Name
       value: Machine Tag Point 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5809802479726630099, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
+      propertyPath: m_TagString
+      value: TruckTP
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5.9967303
+      objectReference: {fileID: 0}
+    - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.463578
+      value: 58.8
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalPosition.y
@@ -13552,11 +13584,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 38.774105
+      value: 88.8
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.96671605
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalRotation.x
@@ -13564,7 +13596,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: -0.25585163
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalRotation.z
@@ -13576,7 +13608,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -29.648
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -15259,18 +15291,26 @@ PrefabInstance:
     - target: {fileID: 5809802479726630088, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: mineTruck
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 345632215}
     - target: {fileID: 5809802479726630099, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_Name
       value: Machine Tag Point 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5809802479726630099, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
+      propertyPath: m_TagString
+      value: TruckTP
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5.9967303
+      objectReference: {fileID: 0}
+    - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.463578
+      value: 105.5
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalPosition.y
@@ -15278,7 +15318,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 38.774105
+      value: 98.9
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalRotation.w
@@ -20515,6 +20555,10 @@ PrefabInstance:
       propertyPath: initiallyActiveComponent
       value: 
       objectReference: {fileID: 379708434}
+    - target: {fileID: 120620389176332484, guid: 47e54eb2f6b9c544baab6f55281f8eb9, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1176643939}
     - target: {fileID: 1165080718718611533, guid: 47e54eb2f6b9c544baab6f55281f8eb9, type: 3}
       propertyPath: m_Name
       value: Car
@@ -22012,7 +22056,7 @@ GameObject:
   - component: {fileID: 1098905136}
   - component: {fileID: 1098905135}
   m_Layer: 5
-  m_Name: (Seconds) to stop
+  m_Name: (Metres) to stop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22035,7 +22079,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1560.8, y: -5}
+  m_AnchoredPosition: {x: -1408.3, y: -5}
   m_SizeDelta: {x: 300, y: 150}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &1098905135
@@ -23664,7 +23708,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1150728590
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23862,18 +23906,26 @@ PrefabInstance:
     - target: {fileID: 5809802479726630088, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: mineTruck
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1849737377}
     - target: {fileID: 5809802479726630099, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_Name
       value: Machine Tag Point 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5809802479726630099, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
+      propertyPath: m_TagString
+      value: TruckTP
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5.9967303
+      objectReference: {fileID: 0}
+    - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.463578
+      value: 182.6
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalPosition.y
@@ -23881,7 +23933,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 38.774105
+      value: 99.6
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalRotation.w
@@ -23917,6 +23969,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
   m_PrefabInstance: {fileID: 1168091997}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1176643939 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 6059702358744046126, guid: 47e54eb2f6b9c544baab6f55281f8eb9, type: 3}
+  m_PrefabInstance: {fileID: 1052866303}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1187804037
 PrefabInstance:
@@ -24129,18 +24186,26 @@ PrefabInstance:
     - target: {fileID: 5809802479726630088, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: mineTruck
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1061637703}
     - target: {fileID: 5809802479726630099, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_Name
       value: Machine Tag Point 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5809802479726630099, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
+      propertyPath: m_TagString
+      value: TruckTP
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_RootOrder
       value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5.9967303
+      objectReference: {fileID: 0}
+    - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.463578
+      value: -129.1
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalPosition.y
@@ -24148,7 +24213,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 38.774105
+      value: 56.4
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalRotation.w
@@ -26013,18 +26078,26 @@ PrefabInstance:
     - target: {fileID: 5809802479726630088, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: mineTruck
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 239849433}
     - target: {fileID: 5809802479726630099, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_Name
       value: Machine Tag Point 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 5809802479726630099, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
+      propertyPath: m_TagString
+      value: TruckTP
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_RootOrder
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5.9967303
+      objectReference: {fileID: 0}
+    - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.463578
+      value: -161
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalPosition.y
@@ -26032,7 +26105,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 38.774105
+      value: 52.9
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalRotation.w
@@ -29203,18 +29276,26 @@ PrefabInstance:
     - target: {fileID: 5809802479726630088, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: mineTruck
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1431668088}
     - target: {fileID: 5809802479726630099, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_Name
       value: Machine Tag Point 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5809802479726630099, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
+      propertyPath: m_TagString
+      value: TruckTP
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_RootOrder
       value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5.9967303
+      objectReference: {fileID: 0}
+    - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.463578
+      value: -97.7
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalPosition.y
@@ -29222,7 +29303,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 38.774105
+      value: 57.5
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalRotation.w
@@ -32832,6 +32913,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1597883916}
+  - component: {fileID: 1597883917}
   m_Layer: 0
   m_Name: Machine Tag Point Container
   m_TagString: Untagged
@@ -32869,6 +32951,34 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1597883917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1597883915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15e37ef09227bf64296f284c8ca1b2d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dist1: 0
+  dist2: 0
+  dist3: 0
+  dist4: 0
+  dist5: 0
+  focusedDist: 0
+  car: {fileID: 1232096606}
+  mineTruck1: {fileID: 0}
+  mineTruck2: {fileID: 0}
+  mineTruck3: {fileID: 0}
+  mineTruck4: {fileID: 0}
+  mineTruck5: {fileID: 0}
+  truck_spawner_Script: {fileID: 198437273}
+  tagPoints: []
+  distText: {fileID: 1098905135}
+  distArray: []
 --- !u!1 &1598717333
 GameObject:
   m_ObjectHideFlags: 0
@@ -33887,6 +33997,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Machine Tag Point 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5809802479726630099, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
+      propertyPath: m_TagString
+      value: TruckTP
+      objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630100, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -34105,18 +34219,26 @@ PrefabInstance:
     - target: {fileID: 5809802479726630088, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: mineTruck
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1813614276}
     - target: {fileID: 5809802479726630099, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_Name
       value: 'Machine Tag Point 14 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5809802479726630099, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
+      propertyPath: m_TagString
+      value: TruckTP
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_RootOrder
       value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5.9967303
+      objectReference: {fileID: 0}
+    - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.463578
+      value: -77.1
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalPosition.y
@@ -34124,7 +34246,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 38.774105
+      value: 56.8
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalRotation.w
@@ -34607,14 +34729,22 @@ PrefabInstance:
     - target: {fileID: 5809802479726630088, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: mineTruck
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1910532563}
     - target: {fileID: 5809802479726630099, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_Name
       value: Machine Tag Point 6
       objectReference: {fileID: 0}
+    - target: {fileID: 5809802479726630099, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
+      propertyPath: m_TagString
+      value: TruckTP
+      objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_RootOrder
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5.9967303
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalPosition.x
@@ -34626,11 +34756,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 38.774105
+      value: 71.5
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.9764613
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalRotation.x
@@ -34638,7 +34768,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: -0.21569288
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalRotation.z
@@ -34650,7 +34780,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -24.912
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -43038,18 +43168,26 @@ PrefabInstance:
     - target: {fileID: 5809802479726630088, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: mineTruck
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1516105875}
     - target: {fileID: 5809802479726630099, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_Name
       value: Machine Tag Point 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 5809802479726630099, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
+      propertyPath: m_TagString
+      value: TruckTP
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_RootOrder
       value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5.9967303
+      objectReference: {fileID: 0}
+    - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.463578
+      value: -185
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalPosition.y
@@ -43057,7 +43195,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 38.774105
+      value: 48.3
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalRotation.w
@@ -43310,18 +43448,26 @@ PrefabInstance:
     - target: {fileID: 5809802479726630088, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: mineTruck
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 550004598}
     - target: {fileID: 5809802479726630099, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_Name
       value: Machine Tag Point 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5809802479726630099, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
+      propertyPath: m_TagString
+      value: TruckTP
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_RootOrder
       value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5.9967303
+      objectReference: {fileID: 0}
+    - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.463578
+      value: -30.5
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalPosition.y
@@ -43329,7 +43475,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 38.774105
+      value: 57.4
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalRotation.w
@@ -44321,18 +44467,26 @@ PrefabInstance:
     - target: {fileID: 5809802479726630088, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: mineTruck
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1757015580}
     - target: {fileID: 5809802479726630099, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_Name
       value: Machine Tag Point 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 5809802479726630099, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
+      propertyPath: m_TagString
+      value: TruckTP
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_RootOrder
       value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5.9967303
+      objectReference: {fileID: 0}
+    - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.463578
+      value: -218.3
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalPosition.y
@@ -44340,7 +44494,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 38.774105
+      value: 42.8
       objectReference: {fileID: 0}
     - target: {fileID: 5809802479726630103, guid: f58961e8bd39d5c4bbb33479853b6a83, type: 3}
       propertyPath: m_LocalRotation.w

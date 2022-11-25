@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 4061.0098, g: 3640.6406, b: 3327.1875, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7558,7 +7558,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Yes
+  m_text: Fully Agree
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -14138,11 +14138,15 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: Yes
+    - m_Text: Fully Agree
       m_Image: {fileID: 0}
-    - m_Text: No
+    - m_Text: Agree
       m_Image: {fileID: 0}
-    - m_Text: Other
+    - m_Text: Neutral
+      m_Image: {fileID: 0}
+    - m_Text: Somewhat Disagree
+      m_Image: {fileID: 0}
+    - m_Text: Fully disagree
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -17584,7 +17588,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   feedback: {fileID: 1890525985}
-  name: {fileID: 0}
+  pname: {fileID: 0}
   dropdown: {fileID: 1021349515}
 --- !u!1 &1289367203
 GameObject:

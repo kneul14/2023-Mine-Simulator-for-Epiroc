@@ -51,7 +51,7 @@ public class MineTruck_Script : MonoBehaviour
 
         if (wavePointIndex >= DPGO.GetComponent<Drive_Points>().drivePoints.Length - 1) //If the enemy reaches the end pont then the Gameobject gets destroyed.
         {
-            Destroy(gameObject);
+            //Destroy(gameObject);
             ContinueMoving();
             return;
         }

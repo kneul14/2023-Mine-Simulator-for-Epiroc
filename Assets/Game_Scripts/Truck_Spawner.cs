@@ -45,20 +45,20 @@ public class Truck_Spawner : MonoBehaviour
         }
 
         truck2 = trucksGO[Random.Range(0, trucks.Length)];
-        if(truck2 == truck1)
+        if(truck2 == truck1 || truck2 == truck3 || truck2 == truck4 || truck2 == truck5)
         {
             truck2 = trucksGO[Random.Range(0, trucks.Length)];
         }
 
         truck3 = trucksGO[Random.Range(0, trucks.Length)];
-        if (truck3 == truck1 || truck3 == truck2)
+        if (truck3 == truck1 || truck3 == truck2 || truck3 == truck4 || truck3 == truck5)
         {
             truck3 = trucksGO[Random.Range(0, trucks.Length)];
         }
 
 
         truck4 = trucksGO[Random.Range(0, trucks.Length)];
-        if (truck4 == truck1 || truck4 == truck2 || truck4 == truck3)
+        if (truck4 == truck1 || truck4 == truck2 || truck4 == truck3 || truck4 == truck5)
         {
             truck4 = trucksGO[Random.Range(0, trucks.Length)];
         }
