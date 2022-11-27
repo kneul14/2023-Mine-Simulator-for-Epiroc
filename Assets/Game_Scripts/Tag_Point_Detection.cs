@@ -7,10 +7,6 @@ using TMPro;
 public class Tag_Point_Detection : MonoBehaviour
 {
     public GameObject mineTruck;
-    //public float timeLeft;
-    //public float timerReset = 3f;
-    //public TMP_Text timerText;
-    //public bool timeYes;
 
     // Start is called before the first frame update
     void Start()
@@ -28,41 +24,15 @@ public class Tag_Point_Detection : MonoBehaviour
     {
         TruckInScene();
 
-        //if (timeYes == true)
-        //{
-        //    if (timeLeft > 0)
-        //    {
-        //        timeLeft -= Time.deltaTime;
-        //    }
-        //    else
-        //    {
-        //        timeLeft = 0;
-        //    }
-
-        //    Timer(timeLeft);            
-        //}
     }
 
     private void OnTriggerEnter(Collider collider)
     {
-        if (collider.gameObject.tag == "MineTruck" || collider.gameObject.tag == "VolvoCar")
+        if (mineTruck && collider.gameObject.tag == "MineTruck")
         {
-            //timeYes = true;
+            Destroy(this.gameObject);
         }
     }
-
-    //void Timer(float timerDisplay)
-    //{
-    //    if (timerDisplay < 0)
-    //    {
-    //        timerDisplay = 0;
-    //    }
-
-    //    float timeInMins = Mathf.FloorToInt(timerDisplay / 60);
-    //    float timeInSecs = Mathf.FloorToInt(timerDisplay % 60);
-
-    //    timerText.text = string.Format("{0}", timeInSecs);
-    //}
 
     void TruckInScene()
     {

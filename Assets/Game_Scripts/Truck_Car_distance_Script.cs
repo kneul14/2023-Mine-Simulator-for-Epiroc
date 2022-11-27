@@ -81,26 +81,26 @@ public class Truck_Car_distance_Script : MonoBehaviour
         {
             focusedDist = distArray[0];
         }
-        if (car.transform.position.x < tagPoints[0].transform.position.x /*|| (car.transform.position.x > mineTruck1.transform.position.x && mineTruck1.transform.position.x < tagPoints[0].transform.position.x)*/)
+        if (car.transform.position.x < tagPoints[0].transform.position.x )
         {
             focusedDist = distArray[1];
         }
-        if (car.transform.position.x < tagPoints[1].transform.position.x /*|| (car.transform.position.x > mineTruck2.transform.position.x && mineTruck2.transform.position.x < tagPoints[0].transform.position.x)*/)
+        if (car.transform.position.x < tagPoints[1].transform.position.x )
         {
             focusedDist = distArray[2];
 
         }
-        if (car.transform.position.x < tagPoints[2].transform.position.x /*|| (car.transform.position.x > mineTruck3.transform.position.x && mineTruck3.transform.position.x < tagPoints[0].transform.position.x)*/)
+        if (car.transform.position.x < tagPoints[2].transform.position.x )
         {
             focusedDist = distArray[3];
 
         }
-        if (car.transform.position.x < tagPoints[3].transform.position.x /*|| (car.transform.position.x > mineTruck4.transform.position.x && mineTruck4.transform.position.x < tagPoints[0].transform.position.x)*/)
+        if (car.transform.position.x < tagPoints[3].transform.position.x )
         {
             focusedDist = distArray[4];
 
         }
-        if (car.transform.position.x < tagPoints[4].transform.position.x /*|| (car.transform.position.x > mineTruck5.transform.position.x && mineTruck5.transform.position.x < tagPoints[0].transform.position.x)*/)
+        if (car.transform.position.x < tagPoints[4].transform.position.x)
         {
 
         }

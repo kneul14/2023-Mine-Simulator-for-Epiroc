@@ -4399,6 +4399,7 @@ MonoBehaviour:
   truck3: {fileID: 0}
   truck4: {fileID: 0}
   truck5: {fileID: 0}
+  tArray: []
 --- !u!114 &198437274
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8468,7 +8469,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1015276862474988922, guid: d6e95b9f3d179224792b7bfb0642f6c9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 40.701622
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1015276862474988922, guid: d6e95b9f3d179224792b7bfb0642f6c9, type: 3}
       propertyPath: m_LocalPosition.y
@@ -8476,23 +8477,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1015276862474988922, guid: d6e95b9f3d179224792b7bfb0642f6c9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 69.2124
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1015276862474988922, guid: d6e95b9f3d179224792b7bfb0642f6c9, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.23698348
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1015276862474988922, guid: d6e95b9f3d179224792b7bfb0642f6c9, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1015276862474988922, guid: d6e95b9f3d179224792b7bfb0642f6c9, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.9715137
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1015276862474988922, guid: d6e95b9f3d179224792b7bfb0642f6c9, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1015276862474988922, guid: d6e95b9f3d179224792b7bfb0642f6c9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
